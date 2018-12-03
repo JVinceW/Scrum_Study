@@ -11,6 +11,7 @@ English version: [Original Page]
 	* [Mục đích:](#mục-đích)
 	* [Mối liên hệ với Scrum Guide:](#mối-liên-hệ-với-scrum-guide)
 	* [Định nghĩa của Kanba:](#định-nghĩa-của-kanba)
+	* [Kanban và lí thuyết Scrum:](#kanban-và-lí-thuyết-scrum)
 	* [Định nghĩa của workflow:](#định-nghĩa-của-workflow)
 	* [Service Level Expectation:](#service-level-expectation)
 	* [Thực hành Kanban:](#thực-hành-kanban)
@@ -33,9 +34,45 @@ English version: [Original Page]
 <!-- End Document Outline -->
 
 ## Mục đích:
+Góc nhìn flow-based của Kanban có thể tăng cường và bổ sung cho Scrum framework và cách triển khai của nó. Team có thể áp dụng Kanban cho dù họ vừa bắt đầu dùng scrum hay đã dùng scrum trong một thời gian dài. Bản hướng dẫn Kanban cho Scrum Teams là kết quả của sự cộng tác giữa các thành viên của cộng đồng Scrum.org và các leader của cộng đồng Kanban. Cùng nhau, Họ đứng sau Bản Hướng dẫn dùng Kanban cho Scrum Teams. Đó là niềm tin chung của họ rằng các học viên phần mềm chuyên nghiệp có thể hưởng lợi từ việc áp dụng Kanban cùng với Scrum.
+
 ## Mối liên hệ với Scrum Guide:
+Bản hướng dẫn này không thay thế hay cắt giảm phần nào của [Scrum Guide]. Nó được thiết kế để tăng cường và mở rộng việc thực hành của Scrum framework. Bản hướng dẫn nàu giả định rằng đọc giả đang điều hành một quy trình sử dụng Scrum framework. Do đó, Toàn bộ [Scrum Guide] áp dụng vào nó.
+
 ## Định nghĩa của Kanba:
-## Định nghĩa của workflow:
+Kanban (n): một chiến thuật để cải tiến dòng chảy giá trị của các bên liên quan thông qua một quy trình mà nó dùng một hệ thống trực quan, Hạn chế công việc kéo dài.
+
+Trung tâm của định nghĩa kanba là concept(khái niệm) của "flow" (dòng chảy, luồng). Flow là sự dịch chuyên của giá trị khách hàng trên khắp hệ thống phát triển sản phẩm. Kanban cải tiến flow bằng cách nâng cao hiệu quả tổng thể, hiệu quả và khả năng dự đoán của một quy trình.
+## Kanban và lí thuyết Scrum:
+Đầu tiên, đánh giá nhanh lý thuyết chính của [Scrum Guide]:
+
+* Scrum được xây dựng dựa trên lý thuyết quản lý tiến trình thực nghiệm, hay thực nghiệm luận. 
+* Lý thuyết này chỉ ra rằng tri thức đến từ kinh nghiệm và việc ra quyết định được dựa trên những gì đã biết. 
+* Ba yếu tố nòng cốt tạo thành một mô hình quản lý tiến trình thực nghiệm gồm: sự minh bạch,
+thanh tra, và thích nghi.
+
+Scrum chỉ định ràng Sprint Backlog minh bạch, nhưng nó lại cung cấp hạn chế về mặt làm thế nào để thực hiện nó. Mà nó cũng không xác định làm cách nào để xác định sự minh bạch rõ ràng cho flow của công việc vào Product Backlog, từ Product Backlog vào Sprint Backlog và bất cứ điều gì xảy ra cho công việc sau khi nó làm cho nó thành một gói tăng trưởng ("Done" increment). Đây là nơi Kanban có thể giúp đỡ. Bằng cách trực quan hóa công việc bằng một cách mới, một Scrum Team có thể áp dụng tập hợp các thực hành được đưa ra trong hướng dẫn này để có thể cải tiến chất lượng chuyển giao hiệu quả hơn. Những thực hành này vay mượn và xây dựng dựa trên các nguyên tắc của suy nghĩ gọn gàng, luồng phát triển sản phẩm và lý thuyết xếp hàng.
+Một tác dụng phụ có lợi của việc cải tiến giá trị chuyển giao đó là nó cung cấp rất nhiều cơ hội để thanh tra và thích ứng quy trình và sản phẩm. Thắt chặt vòng phản hồi của khách hàng với Kanban là một chiến lượt đã được chứng minh để thực nghiệm cải thiện một quy trình.
+Kanban siêu tập trung vào tính minh bạch, trực quan hóa, và luồng, kết hợp với Scrum framework, hình thành một nền tảng mạnh mẽ để thiết kế quy trình cung cấp tối ưu giá trị của khách hàng.
+
+## Định nghĩa của Workflow:
+Cái tiến luồng yêu cầu phải định nghĩa luồng là gì trong context(ngữ cảnh) của Scrum. Mỗi Scrum Team cần tạo ra định nghĩa của nó về "Quy trình làm việc (Workflow)" có chứa các yếu tố sau:
+* Xác định các điểm mà tại đó Scrum Team xem xét công việc đã bắt đầu và đã kết thúc.
+* Một định nghĩa của các đơn vị cá nhân của giá trị khách hàng mà chúng chảy qua cả hệ thống Scrum (Gần giống với Product Backlog Items(PBIs)).
+* Một định nghĩa của trạng thái luồng công việc mà PBIs chảy qua từ lúc bắt đầu đến khi kết thúc (trong đó phải có ít nhất 1 trạng thái hoạt động).
+* Chính sách rõ ràng về công việc chảy qua mỗi trạng thái như thế nào (Có thể bao gồm các hạn mục từ định nghĩa "Done" của một Scrum Team và kéo các chính sách giữa các trạng thái ) 
+* Một định nghĩa về Work In Progress (WIP) sẽ bị hạn chế như thế nào.
+* Một tập hợp các Service Level Expectation (SLE) mà nó có thể truyền đạt dự báo thời gian cần để hoàn thành các hạng mục công việc.
+
+Mặc dù phụ thuộc vào việc Scrum Team định nghĩa "Workflow" của mình, nhưng có một số yếu tố phải bao gồm:
+* Xác định các hạng mục công việc chưa trong một trạng thái hoạt động là "chưa bắt đầu".
+* Xác định các hạng mục công việc đang bước vào trạng thái hoạt động "đã bắt đầu" là Work in Progress (WIP).
+* Xác định các hạng mục công việc đã trải quả tất cả các trạng thái hoạt động được đặt ra cho các hạng mục đó là "đã hoàn thành".
+
+Tóm lại, định nghĩa của "Workflow" bao gồm một sự hiểu biết chung về công việc đươc định nghĩa như thế nào(các hạng mục cộng việc), trạng thái bắt đầu của quá trình, trạng thái hoạt động cho các hạng mục công việc, và trạng thái đã hoàn thành của quá trình trong Scrun Team. 
+Lưu ý ràng các trạng thái trong định nghĩa của "Workflow" có thể không trùng khớp với các trạng thái được xác định bởi Sprint Backlog. Ví dụ, Định nghĩa về "Workflow" của một Scrum Team có thể bao gồm các trạng thái như upstream, downstream, inside hoặc outside của Sprint Backlog. Tương tự, các hạn mục công việc dịch chuyện trong workflow sẽ không tương ứng với các hạng mục trong Product Backlog hoặc các phần khác của Sprint Backlog hoặc Scrum. Cuối cùng, một hạng mục công việc cụ thể có thể không chảy qua tất cả các trạng thái hoạt động, và một hạng mục công việc thậm chí có thể không chảy tuần tự qua các trạng thái hoạt động.
+Việc tạo và thích ứng với định nghĩa của "Workflow" có thể tác động hoặc bị ảnh hưởng bởi hiện vật hiện có. Các tài khoản và các trách nhiệm của Chủ sản phẩm(Product Owner) và Nhóm phát triển (Development Team) đối với các hiện vật đó vẫn được mô tả trong [Scrum Guide]
+
 ## Service Level Expectation:
 ## Thực hành Kanban:
 ### Trực quan hóa workflow - Bảng kanban:
@@ -59,4 +96,5 @@ English version: [Original Page]
 [//]: #
 [Scrum.org]: <https://www.scrum.org>
 [Original Page]: <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-04/2018%20Kanban%20Guide%20for%20Scrum%20Teams_0.pdf>
+[Scrum Guide]: <https://www.scrumguides.org/scrum-guide.html>
 
