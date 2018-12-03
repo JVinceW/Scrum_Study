@@ -106,17 +106,80 @@ Những chính sách đó sẽ được bắt gặp trong một định nghĩa "
 Rõ ràng nghĩa là những chính sách này đước viết ra hoặc được trực quan hóa bằng cách nào đó và cả Scrum Team hiểu chúng. 
 Bảng Kanban nên hiển thị tất cả những chính sách liên quan hoặc hướng cho những thành viên của Scrum Team tìm chúng ở đâu.
 Một ví dụ điển hình về một chính sách cần phải rõ ràng là cách Scrum Team xác định thời điểm khi các mục đi từ chưa được bắt đầu đến bắt đầu và từ trong tiến trình đi đến đã hoàn thành. Không nghi ngờ gì khi Scrum Team sẽ thêm vào các chính sách khác trên đầu của những chính sách cụ thể được gọi trong bản hướng dẫn này. 
+
 ## Flow Metrics and Analytics
+Việc áp dụng Kanban trong Scrum Context yêu cầu thu thập và phân tích tập hợp chỉ số lưu lượng tối thiểu. Những chỉ số này là cần thiết cho thực hành của quản lý chủ động của các hạng mục công việc trong tiến trình. Nó cũng làm cho tính minh bạch của flow và cho phép định hướng luồng thanh tra và thích ứng. Những chỉ số này phản ánh sức sống và hiệu suất hiện tại của hướng tiếp cận của Scrum Team. Họ cũng sẽ chỉ ra các can thiệp có thể cải thiện chức năng của nhóm Scrum và giá trị mà nó mang lại.
+
 ### Cơ bản về chỉ số lưu lượng (Metrics of Flow)
+Bốn chỉ số cơ bản của flow mà Scrum teams dùng Kanban sẽ cần để track là những điều sau:
+* Work in Progress (WIP): Số lượng các công việc đã được bắt đầu nhưng chưa được hoàn thành () The number of work items started but not finished (Theo định nghĩa "Workflow" của Scrum Team).
+* Cycle Time (Vòng thời gian): Lượng thời gian trôi qua giữa thời điểm mục công việc "bắt đầu" và khi nào mục công việc "kết thúc".
+* Work Item Age (Tuổi thọ mục công việc): Lượng thời gian trôi qua giữa thời điểm mục công việc "đã bắt đầu" và thời điểm hiện tại.
+* Throughput (Thông lượng): Số lượng của các mục công việc đã hoàn thành trên đơn vị thời gian. Lưu ý việc đo lường thông lượng là số lượng công việc chính xác.
+
+Tính toán các vòng thời gian và tuổi mục công việc yêu cầu Scrum Team (ở mức ít nhất) trach ngày bắt đầu và ngày đã hoàn thành của mỗi mục công việc.
+Nhưng chỉ số này cần được giám sát trong suốt Sprint - đặc biệt là trong Scrum Event (xem [Flow-Based Events](#flow-based-events)). Như thường lệ, Nó còn có nhiều chỉ số khác mà Scrum Team cần xem xét, nhưng trên đây là những yêu cầu tối thiểu.
+
 ## Flow-Based Events
+Kanban trong Scrum Context không yêu cầu bất kì sự kiện bổ sung nào cho các sự kiện được nêu trong [Scrum Guide]. Tuy nhiên dùng quan điểm flow-based có thể tăng cường cho các sự kiện Scrum.
+
 ### The Sprint
+Một Sprint là một nhịp điệu hoặc một "nhịp tim" đều đặn cho sự thanh tra và sự thích nghi. 
+Chu kì đều đặn và các phần tử của Sprint phù hợp một cách tự nhiên với quy trình quản lý. 
+Một Sprint chứa kế hoạch Sprint (Sprint Planning), Họp Scrum hàng ngày (Daily Scrum), công việc phát triển, Sơ kết Sprin (Sprint Review), và hồi tưởng Sprint (Sprint Retrospective).
+Các sự kiện trong một Sprint có thể làm việc như một vòng lặp phản hồi (feedback loop) cho sự thanh tra chỉ số Kanban flow, và hướng tiếp cận Kanban cũng có thể hoạt động như một vòng lặp phản hổi (feedback loop) cho sự thanh tra trong triển khai Scrum.
+
 ### Kế hoạch Flow-Based Sprint
+Một cuộc họp kế hoạch Sprint flow-based dùng các chỉ số flow như một sự trợ giúp để phát triển Sprint Backlog. Ví dụ, dùng lịch sử thông lượng để hiểu sức chứa của Scrum Team cho Sprint tiếp theo. Một SL của Scrum Team có thể ảnh hưởng đến công việc đã lên kế hoạch cho những ngày đầu tiền của Sprint.
+
 ### Họp Flow-Based Scrums hàng ngày
+Một cuộc họp Scrum flow-based  hàng ngày tập trung vào việc đảm bảo Scrum Team làm tất cả những gì nó có thể để duy trì flow mỗi ngày. Trong khi goal của họp Scrum hàng ngày vẫn như cũ như của [Scrum Guide], bản thân cuộc họp diễn ra xung quanh bảng kanban và tập trung vào chỗ mà flow bị thiếu sót và bằng những cách nào mà Scrum Team có thể làm cho dòng chảy công việc chảy trở lại.
+Vài điều bổ sung để xem xét trong thời gian một Flow-based Daily Scrum như sau:
+
+* Những hạng mục công việc nào đang bị chặn và những gì Scrum Team có thể làm để làm cho nó không bị chặn đứng?
+* Tuổi đời của mỗi hạng mục công việc đang tiến hành là gì? Các mục công việc nào đã vi phạm hoặc sắp vi phạm SLE của chúng và Scrum Team có thể làm gì để công việc đó có thể được hoàn thành? 
+
+• Có bất kỳ điều gì có thể ảnh hưởng đến khả năng để hoàn thành công việc hôm nay của Scrum Team mà không được thể hiện trên bảng không?
+
 ### Sơ kết Flow-Based Sprint
+[Scrum Guide] cung cấp một phác thảo chi tiết của chu trình sơ kết Sprint. Ngoài các hoạt động này ra, Thanh tra chỉ số lưu lượng kanban như một phần của sơ kết Sprint tạo ra cơ hội cho những cuộ hội thoại mới về giám sát tiến trình để đi đến goal.
+Xem xet thông lượng có thể cung cấp vài thông tin bổ sung khi Chủ sản phẩm (PO) thảo luận về mục tiêu và ngày có khả năng chuyển giao hàng.
+Sơ kết một SLE của Scrum Team có thể làm cho Chủ sản phẩm (PO) sửa đổi Product Backlog.
+
 ### Cải tiến Flow-Based Sprint
+A flow-based Sprint Retrospective adds the inspection of flow metrics and analytics to help
+determine what improvements the Scrum Team can make to its processes, including the Sprint
+Retrospective itself. The Scrum Team using Kanban also inspects and adapts the definition of
+“Workflow” to optimize the flow in the next Sprint. Using a cumulative flow diagram to visualize
+a Scrum Team’s Work in Progress, average approximate Cycle Time and average Throughput may
+be valuable.
+The Scrum Guide dictates that the Sprint Retrospective take place after the Sprint Review and
+before the next Sprint Planning. This does not change when using Kanban. However, flow-based
+retrospective opportunities need not coincide within the boundaries of a Sprint. They can occur
+"just in time”. Correspondingly, changes to a team’s definition of “Workflow” may happen at any
+time, however, as these changes will have a material impact on how the Scrum Team performs,
+changes made during the regular cadence provided by the Sprint Retrospective event will reduce
+complexity and improve transparency.
+
 ## Lời kết
+Scrum is not a process or technique. It is a framework within which people can address complex
+adaptive problems, while productively and creatively delivering products of the highest possible
+value. As The Scrum Guide points out, it functions well as a container for other techniques,
+methodologies, and practices. 
+The flow optimization practices of Kanban provide Scrum Teams with additional opportunities to
+inspect the right thing, at the right time, and then based on that inspection, adapt as needed.
+Kanban's hyperfocus on transparency, visualization, and flow maximizes feedback, empiricism,
+and ultimately the delivery of customer value.
 ## Acknowledgements
 ### Lịch sử
+The set of practices commonly referred to as Kanban mostly originated on a team at Corbis in 2006. Those practices quickly spread to encompass a large and diverse international community
+who over the years continued to enhance and evolve the approach.
+This guide was developed collaboratively by Scrum.org, our Professional Scrum Trainer
+Community, Steve Porter, Yuval Yeret, and Daniel Vacanti.
+A special thank you to Louis-Philippe Carignan and Charles Bradley for their contributions in this
+effort. We also owe a debt of gratitude to all those practitioners who have in the past contributed
+to make Kanban a viable and successful lean-agile strategy. 
+
 ### Về bản dịch tiếng Việt
 
 
